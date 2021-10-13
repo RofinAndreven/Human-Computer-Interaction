@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet/main.css">
+    <link rel="stylesheet" href="stylesheet/registration.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="header">
+        <img src="assets/logo.png" alt="Logo" class="logo">
+        <div class="navbar">
+            Menu
+            <div class="dropdown">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ProductPage.html">Products</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                    <li><a href="Registration.html">Registration</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="title">ZUNDER ZIFFLIN</div>
+    <br>
+    <div>
+        <h1>Registration Form</h1>
+    </div>
+    <div>
+        <table>
+            <form action="">
+                <tr>
+                    <td>Name</td>
+                    <td>:</td>
+                    <td><input type="text" name="" id="register_name" value=""></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="text" name="" id="register_email"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="gender" id="register_gender_male">Male
+                        <input type="radio" name="gender" id="register_gender_female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>:</td>
+                    <td><textarea name="" id="register_address" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td>:</td>
+                    <td><input type="text" name="" id="register_city"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="" id="register_agreement">I agree to the terms and conditions</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="Register" onclick="validate()">
+                    </td>
+                </tr>
+            </form>
+            <tr>
+                <td>
+                    <span id="errorMsg"></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">
+        <div class="footerText">
+            <div class="subTitle2">Contact Us</div>
+            Email : zunderzifflin@gmail.com<br>
+            Phone : 081122222333<br>
+        </div>
+    </div>
+    <script src="scripts/register.js"></script>
+</body>
+</html>

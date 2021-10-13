@@ -1,0 +1,91 @@
+.itemRow{
+    margin: auto;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemBox{
+    display: block;
+    background-color: white;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 18px;
+    float: left;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.itemImg{
+    width: 200px;
+    height: 170px;
+}
+
+.promoImg{
+    width: 200px;
+    height: 170px;
+}
+
+.advantages{    
+    display: block;
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.advRow{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.advBox{
+    display: block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 18px;
+    float: left;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.advImg{
+    height: 100px;
+}
+
+.navButton{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+}
+
+@media screen and (max-width:800px){
+    .itemImg{
+        width: 100px;
+        height: 70px;
+    }
+    .advRow{
+        flex-direction: row;
+    }
+    .advantages{
+        height: 50%;
+    }
+}
